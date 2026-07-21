@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "type": "module",
-  "description": "Starfolio - Create a personal or professional portfolio site just from a single config file. Built with Astro.",
-  "author": "websiterating",
+  "description": "Jaspher Porfolio",
+  "author": "jaspher sujin",
   "version": "0.0.1",
   "engines": {
     "node": ">=22.12.0"
@@ -42,6 +42,7 @@
     "react-markdown": "^10.1.0",
     "rehype-pretty-code": "^0.14.3",
     "remark-gfm": "^4.0.1",
+    "resend": "^6.16.0",
     "shiki": "^4.0.2",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.2.4",

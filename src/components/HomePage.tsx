@@ -9,7 +9,8 @@ import HackathonsSection from "@/components/section/hackathons-section";
 import PhotosSection from "@/components/section/photos-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, DownloadIcon } from "lucide-react";
+import { Button } from "./ui/button";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -149,6 +150,21 @@ export default function HomePage() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              {/* https://drive.google.com/file/d/1Q_-6LBQhROyDPbXK86NgQmtDHgWQm8CE/view?usp=sharing */}
+              
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <div className="flex">
+                  <a href="https://drive.google.com/file/d/1Q_-6LBQhROyDPbXK86NgQmtDHgWQm8CE/view?usp=sharing"
+                    download   target="_blank" rel="noopener noreferrer"
+                  >
+                    <Button className="flex justify-center">
+                       Resume
+                       <ArrowUpRight className="ml-1 h-4 w-4"/>
+                    </Button>
+                  </a>
+                </div>
+              </BlurFade>
+
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
               <Avatar className="size-24 md:size-32 border rounded-full shadow-lg ring-4 ring-muted">
