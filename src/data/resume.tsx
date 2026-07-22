@@ -12,6 +12,35 @@ import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Astro } from "@/components/ui/svgs/astro";
 import { Java } from "@/components/ui/svgs/java";
 
+import {
+  SiSpringboot,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiExpress,
+  SiPython,
+  SiGo,
+  SiMysql,
+  SiPostgresql,
+  SiMongodb,
+  SiRedis,
+  SiApachekafka,
+  SiDocker,
+  SiKubernetes,
+  SiSupabase,
+  SiFirebase,
+  SiTailwindcss,
+  SiBootstrap,
+  SiGit,
+  SiGithub,
+  SiVercel,
+  SiWordpress,
+  SiLaravel,
+  SiGitlab,
+} from "react-icons/si";
+
 export const DATA = {
   name: "Jaspher sujin - Software Engineer",
   initials: "M",
@@ -65,21 +94,63 @@ export const DATA = {
     { src: "/photos/photo8.jpg", alt: "Photo 8" },
     { src: "/photos/photo9.jpg", alt: "Photo 9" },
   ],
+
   skills: [
-    { name: "Java", icon: Java },
-    { name: "Spring Boot", icon: Java },
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "JavaScript", icon: Typescript },
-    { name: "MySQL", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
-  ],
+  { name: "Java", icon: Java },
+
+  { name: "Spring Boot", icon: SiSpringboot, color: "#6DB33F" },
+
+  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
+
+  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+
+  { name: "React", icon: SiReact, color: "#61DAFB" },
+
+  { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
+
+  { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
+
+  { name: "Express.js", icon: SiExpress, color: "#444444" },
+
+  { name: "Python", icon: SiPython, color: "#3776AB" },
+
+  { name: "Go", icon: SiGo, color: "#00ADD8" },
+
+  { name: "MySQL", icon: SiMysql, color: "#4479A1" },
+
+  { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
+
+  { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+
+  { name: "Redis", icon: SiRedis, color: "#DC382D" },
+
+  { name: "Apache Kafka", icon: SiApachekafka, color: "#231F20" },
+
+  { name: "Docker", icon: SiDocker, color: "#2496ED" },
+
+  { name: "Kubernetes", icon: SiKubernetes, color: "#326CE5" },
+
+  { name: "Laravel", icon: SiLaravel, color: "#FF2D20" },
+
+  { name: "Supabase", icon: SiSupabase, color: "#3ECF8E" },
+
+  { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
+
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+
+  { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
+
+  { name: "Git", icon: SiGit, color: "#F05032" },
+
+  { name: "GitHub", icon: SiGithub, color: "#181717" },
+
+  { name: "GitLab", icon: SiGitlab, color: "#FC6D26" },
+
+  { name: "Vercel", icon: SiVercel, color: "#000000" },
+
+  { name: "WordPress", icon: SiWordpress, color: "#21759B" },
+],
+
   navbar: [
     { href: "/", icon: House, label: "Home" },
     { href: "/blog", icon: Library, label: "Blog" },
