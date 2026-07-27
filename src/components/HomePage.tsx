@@ -11,6 +11,7 @@ import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight, DownloadIcon } from "lucide-react";
 import { Button } from "./ui/button";
+import GithubActivity from "./GithubActivity";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -41,6 +42,21 @@ const sectionComponents: Record<string, React.ReactNode> = {
       </div>
     </section>
   ),
+  github: (
+  <section id="github">
+    <div className="flex min-h-0 flex-col gap-y-6">
+      <BlurFade delay={BLUR_FADE_DELAY * 6}>
+        <h2 className="text-xl font-bold">
+          {DATA.sections.github.heading}
+        </h2>
+      </BlurFade>
+
+      <BlurFade delay={BLUR_FADE_DELAY * 7}>
+        <GithubActivity />
+      </BlurFade>
+    </div>
+  </section>
+),
   education: (
     <section id="education">
       <div className="flex min-h-0 flex-col gap-y-6">
@@ -101,7 +117,7 @@ const sectionComponents: Record<string, React.ReactNode> = {
                   return (
                     <Icon
                       size={16}
-                      color={skill.color}
+                      // color={skill.color}
                       // className="rounded overflow-hidden object-contain"
                     />
                   );

@@ -57,11 +57,13 @@ export const DATA = {
   ogImage: "/og_image.png",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
-    work: { order: 2, enabled: true, heading: "Work Experience", presentLabel: "Present" },
-    education: { order: 3, enabled: true, heading: "Education" },
-    skills: { order: 4, enabled: true, heading: "Skills" },
+    work: { order: 3  , enabled: true, heading: "Work Experience", presentLabel: "Present" },
+    github: { heading: "GitHub Activity", enabled: true, order: 2,
+  },
+    education: { order: 4, enabled: true, heading: "Education" },
+    skills: { order: 5, enabled: true, heading: "Skills" },
     projects: {
-      order: 5, enabled: true,
+      order: 6, enabled: true,
       label: "My Projects",
       heading: "Check out my latest work",
       text: "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
@@ -73,11 +75,11 @@ export const DATA = {
       text: "During my time in university, I attended {count}+ hackathons. People from around the country would come together and build incredible things in 2-3 days. It was eye-opening to see the endless possibilities brought to life by a group of motivated and passionate individuals.",
     },
     photos: {
-      order: 6, enabled: false,
+      order: 8, enabled: false,
       heading: "My Recent Travels",
     },
     contact: {
-      order: 8, enabled: true,
+      order: 9, enabled: true,
       label: "Contact",
       heading: "Get in Touch",
       text: "Want to chat? Just shoot me a dm with a direct question on my LinkedIn.",
