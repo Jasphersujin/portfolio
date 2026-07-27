@@ -49,10 +49,10 @@ export const DATA = {
   locationLink: "",
   description:
       // "Software Engineer building scalable multi-tenant SaaS platforms with high ownership across System Design, Architecture, Implementation, and Deployment.",
-    "1.6+ Years of Experience as a Software Engineer, building systems from 0→1 in fast-paced startup environments—from planning, architecture, implementation.",
+    "1.7+ Years of Experience as a Software Engineer, building systems from 0→1 in fast-paced startup environments—from planning, architecture, implementation.",
   // summary:
   //   "In early 2023, I left a senior engineering role to go all-in on building my own SaaS products. Before that, [I completed a double degree in computer science and business](/#education), [interned at companies like Stripe and Cloudflare](/#work), and [competed in 18+ hackathons](/#hackathons). I also spent a summer in San Francisco as part of a founder residency focused on shipping fast and finding early customers.",
-  summary: "Over the last 1.6+ years, I've been building scalable multi-tenant SaaS platforms in fast-paced startup environments, taking ownership of core product systems from System Design and Architecture to Implementation and Deployment. My experience includes designing and developing Authentication & Authorization, Role-Based Access Control (RBAC), User Management, Audit Logging, event-driven workflows, and scalable APIs, with a strong focus on performance, scalability, and maintainability.",
+  summary: "Over the last 1.7+ years, I've been building scalable multi-tenant SaaS platforms in fast-paced startup environments, taking ownership of core product systems from System Design and Architecture to Implementation and Deployment. My experience includes designing and developing Authentication & Authorization, Role-Based Access Control (RBAC), User Management, Audit Logging, event-driven workflows, and scalable APIs, with a strong focus on performance, scalability, and maintainability.",
   avatarUrl: "/jasphersujin.png",
   ogImage: "/og_image.png",
   sections: {
@@ -155,11 +155,11 @@ export const DATA = {
 
   navbar: [
     { href: "/", icon: House, label: "Home" },
-    { href: "/blog", icon: Library, label: "Blog" },
+    // { href: "/blog", icon: Library, label: "Blog" },
   ],
   contact: {
-    email: "alex@alexmercer.dev",
-    tel: "+1 512 000 0000",
+    email: "jasphersujin273@gmail.com",
+    tel: "+91 70945 34371",
     social: {
       GitHub: {
         name: "GitHub",
@@ -177,7 +177,7 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:jasphersujin273@gmail.com",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
