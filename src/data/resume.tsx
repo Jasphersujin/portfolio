@@ -259,7 +259,7 @@ description: `
       dates: "May 2025 - Jun 2025",
       active: true,
       description:
-        "Built an AI-powered code review tool that integrates with GitHub PRs and provides context-aware feedback based on your team's codebase conventions. Used by 300+ engineering teams.",
+        "A modern Learning Management System (LMS) built with Next.js, Clerk Authentication, Supabase, and Vapi AI. The platform enables users to learn through AI-powered voice interactions, track progress, manage subscriptions, and interact with intelligent learning companions in real time.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -291,7 +291,7 @@ description: `
       dates: "October 2023 - February 2024",
       active: true,
       description:
-        "Open-source structured logging dashboard for Node.js and Python services. Ingest logs via a lightweight SDK, query them with a SQL-like syntax, and set up alerts in minutes.",
+        "A scalable electric bus charging scheduler built with Python and Streamlit that optimizes charger allocation, minimizes waiting time, balances station usage, and generates efficient charging plans from configurable JSON scenarios.",
       technologies: [
         "Python",
         "Streamlit",
