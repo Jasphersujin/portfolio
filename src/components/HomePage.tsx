@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -16,6 +16,7 @@ import GithubActivity from "./GithubActivity";
 const BLUR_FADE_DELAY = 0.04;
 
 const sectionComponents: Record<string, React.ReactNode> = {
+  
   about: (
     <section id="about">
       <div className="flex min-h-0 flex-col gap-y-4">

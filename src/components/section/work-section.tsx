@@ -32,7 +32,13 @@ function LogoImage({ src, alt }: { src: string; alt: string }) {
 
 export default function WorkSection() {
   return (
-    <Accordion type="single" collapsible className="w-full grid gap-6">
+    // <Accordion type="single" collapsible className="w-full grid gap-6">
+    <Accordion
+      type="single"
+      collapsible
+      defaultValue={DATA.work[0]?.company}
+      className="w-full grid gap-6"
+    >
       {DATA.work.map((work) => (
         <AccordionItem
           key={work.company}
@@ -47,19 +53,18 @@ export default function WorkSection() {
                   <div className="font-semibold leading-none flex items-center gap-2">
                     {work.company}
                     <span className="relative inline-flex items-center w-3.5 h-3.5">
-                      <ChevronRight
-                        className={cn(
-                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300 ease-out",
-                          "translate-x-0 opacity-0",
-                          "group-hover:translate-x-1 group-hover:opacity-100",
-                          "group-data-[state=open]:opacity-0 group-data-[state=open]:translate-x-0"
-                        )}
-                      />
-                      <ChevronDown
+                      {/* <ChevronDown
                         className={cn(
                           "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-200",
                           "opacity-0 rotate-0",
                           "group-data-[state=open]:opacity-100 group-data-[state=open]:rotate-180"
+                        )}
+                      /> */}
+                      <ChevronDown
+                        className={cn(
+                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300",
+                          "opacity-100 rotate-0",
+                          "group-data-[state=open]:rotate-180"
                         )}
                       />
                     </span>
@@ -78,7 +83,33 @@ export default function WorkSection() {
           </AccordionTrigger>
           <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground">
             {/* {work.description} */}
-             <Markdown>{work.description}</Markdown>
+             {/* <Markdown>{work.description}</Markdown> */}
+             {/* <Markdown
+                components={{
+                  ul: ({ children }) => (
+                    <ul className="list-disc pl-0 space-y-0.5">{children}</ul>
+                  ),
+                  li: ({ children }) => (
+                    <li className="text-sm text-gray-500">{children}</li>
+                  ),
+                }}
+              >
+                {work.description}
+            </Markdown> */}
+            <Markdown
+              components={{
+                ul: ({ children }) => (
+                  <ul className="list-disc pl-0 space-y-1">{children}</ul>
+                ),
+                li: ({ children }) => (
+                  <li className="text-sm text-muted-foreground marker:text-muted-foreground">
+                    {children}
+                  </li>
+                ),
+              }}
+            >
+              {work.description}
+          </Markdown>
           </AccordionContent>
         </AccordionItem>
       ))}
