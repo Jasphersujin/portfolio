@@ -48,11 +48,10 @@ export const DATA = {
   location: "Bengaluru, India",
   locationLink: "",
   description:
-      // "Software Engineer building scalable multi-tenant SaaS platforms with high ownership across System Design, Architecture, Implementation, and Deployment.",
-    "1.7+ Years of Experience as a Software Engineer, building systems from 0→1 in fast-paced startup environments—from planning, architecture, implementation.",
+    "1.8+ Years of Experience as a Software Engineer, building systems from 0→1 in fast-paced startup environments—from planning, architecture, implementation.",
   // summary:
   //   "In early 2023, I left a senior engineering role to go all-in on building my own SaaS products. Before that, [I completed a double degree in computer science and business](/#education), [interned at companies like Stripe and Cloudflare](/#work), and [competed in 18+ hackathons](/#hackathons). I also spent a summer in San Francisco as part of a founder residency focused on shipping fast and finding early customers.",
-  summary: "Over the last 1.7+ years, I've been building scalable multi-tenant SaaS platforms in fast-paced startup environments, taking ownership of core product systems from System Design and Architecture to Implementation and Deployment. My experience includes designing and developing Authentication & Authorization, Role-Based Access Control (RBAC), User Management, Audit Logging, event-driven workflows, and scalable APIs, with a strong focus on performance, scalability, and maintainability.",
+  summary: "Over the last 1.8+ years, I've been building scalable multi-tenant SaaS platforms in fast-paced startup environments, taking ownership of core product systems from System Design and Architecture to Implementation and Deployment. My experience includes designing and developing Authentication & Authorization, Role-Based Access Control (RBAC), User Management, Audit Logging, event-driven workflows, and scalable APIs, with a strong focus on performance, scalability, and maintainability.",
   avatarUrl: "/jasphersujin.png",
   ogImage: "/og_image.png",
   sections: {

@@ -53,13 +53,6 @@ export default function WorkSection() {
                   <div className="font-semibold leading-none flex items-center gap-2">
                     {work.company}
                     <span className="relative inline-flex items-center w-3.5 h-3.5">
-                      {/* <ChevronDown
-                        className={cn(
-                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-200",
-                          "opacity-0 rotate-0",
-                          "group-data-[state=open]:opacity-100 group-data-[state=open]:rotate-180"
-                        )}
-                      /> */}
                       <ChevronDown
                         className={cn(
                           "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300",
@@ -82,20 +75,6 @@ export default function WorkSection() {
             </div>
           </AccordionTrigger>
           <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground">
-            {/* {work.description} */}
-             {/* <Markdown>{work.description}</Markdown> */}
-             {/* <Markdown
-                components={{
-                  ul: ({ children }) => (
-                    <ul className="list-disc pl-0 space-y-0.5">{children}</ul>
-                  ),
-                  li: ({ children }) => (
-                    <li className="text-sm text-gray-500">{children}</li>
-                  ),
-                }}
-              >
-                {work.description}
-            </Markdown> */}
             <Markdown
               components={{
                 ul: ({ children }) => (
