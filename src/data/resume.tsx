@@ -357,7 +357,7 @@ description: `
         {
           type: "Source",
           href: "https://github.com/Jasphersujin/Admission-Management-CRM.git",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/projects/CRM/pic3.png",
