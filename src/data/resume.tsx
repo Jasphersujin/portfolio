@@ -97,7 +97,7 @@ export const DATA = {
   ],
 
   skills: [
-  { name: "Java", icon: Java },
+  { name: "Java", icon: Java, },
 
   { name: "Spring Boot", icon: SiSpringboot, color: "#6DB33F" },
 
@@ -355,8 +355,8 @@ description: `
       ],
       links: [
         {
-          type: "Website",
-          href: "#",
+          type: "Source",
+          href: "https://github.com/Jasphersujin/Admission-Management-CRM.git",
           icon: <Icons.globe className="size-3" />,
         },
       ],
