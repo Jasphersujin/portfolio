@@ -253,6 +253,36 @@ description: `
   ],
   projects: [
     {
+      title: "Document e-sign",
+      // href: "https://js-sass-app.vercel.app/",
+      dates: "Aug 2026 - Present",
+      active: true,
+      description:
+        "Building a full-stack digital document signing platform that enables users to upload documents, add signature and form fields, send documents for signing, track signing progress, and securely manage completed documents",
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Kafka",
+        "TypeScript",
+        "TailwindCSS",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://js-sass-app.vercel.app/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/Jasphersujin/esign-platform-backend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/esign/image1.png",
+      video: "",
+    },
+    {
       title: "AI Powered LMS (Voice Support)",
       href: "https://js-sass-app.vercel.app/",
       dates: "May 2025 - Jun 2025",
@@ -284,32 +314,32 @@ description: `
       image: "/projects/ai-lms/ai-companion-app.png",
       video: "",
     },
-    {
-      title: "Bus Charging Scheduler",
-      href: "#",
-      dates: "October 2023 - February 2024",
-      active: true,
-      description:
-        "A scalable electric bus charging scheduler built with Python and Streamlit that optimizes charger allocation, minimizes waiting time, balances station usage, and generates efficient charging plans from configurable JSON scenarios.",
-      technologies: [
-        "Python",
-        "Streamlit",
-      ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "https://logport.io",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://github.com/Jasphersujin/Bus-Charging-Scheduler.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/bus-charging/Per-bus-charging-timeline.png",
-      video: "",
-    },
+    // {
+    //   title: "Bus Charging Scheduler",
+    //   href: "#",
+    //   dates: "October 2023 - February 2024",
+    //   active: true,
+    //   description:
+    //     "A scalable electric bus charging scheduler built with Python and Streamlit that optimizes charger allocation, minimizes waiting time, balances station usage, and generates efficient charging plans from configurable JSON scenarios.",
+    //   technologies: [
+    //     "Python",
+    //     "Streamlit",
+    //   ],
+    //   links: [
+    //     // {
+    //     //   type: "Website",
+    //     //   href: "https://logport.io",
+    //     //   icon: <Icons.globe className="size-3" />,
+    //     // },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/Jasphersujin/Bus-Charging-Scheduler.git",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/projects/bus-charging/Per-bus-charging-timeline.png",
+    //   video: "",
+    // },
     {
       title: "RFP System (Request For Proposal)",
       href: "#",
