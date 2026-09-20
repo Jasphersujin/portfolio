@@ -198,7 +198,9 @@ description: `
 
 - Designed and implemented a unified Authentication & Authorization system supporting platform administrators, tenants, and end users.
 
-- Developed a dynamic Role-Based Access Control (RBAC) and Permission Management framework for configurable access control.
+- Developed a dynamic Role-Based Access Control (RBAC) and Permission Management framework for configurable access control. The framework has been adopted across 3+ systems within the organization.
+
+- Led 2+ project teams end-to-end, from requirement planning and task breakdown to technical decisions, implementation, code reviews, and delivery.
 
 - Built User Management, User Provisioning, Role Mapping, and Audit Logging systems as foundational platform components.
 

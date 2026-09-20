@@ -2,6 +2,7 @@
 .claude/
 .vscode/
 .wrangler/
+.dev.vars
 
 # build output
 dist/
