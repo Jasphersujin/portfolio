@@ -182,7 +182,7 @@ export default function HomePage() {
               
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <div className="flex">
-                  <a href="https://drive.google.com/file/d/1ngUDDJBAc-frcxmtQyCSpDCsJR5UBglY/view?usp=sharing"
+                  <a href="https://drive.google.com/file/d/1xLYVtw0NXuUdIV2cd8tegL12NuD0FJIb/view?usp=sharing"
                     download   target="_blank" rel="noopener noreferrer"
                   >
                     <Button className="flex justify-center">
